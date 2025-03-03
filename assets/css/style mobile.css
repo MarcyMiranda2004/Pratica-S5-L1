@@ -207,36 +207,14 @@
     padding-right: 7em;
   }
 
+  /* Aside */
   aside {
-    display: flex; /* Attiva Flexbox */
-    flex-direction: column; /* Imposta la direzione in colonna */
-    gap: 20px; /* Spazio tra il titolo e i div */
-  }
-
-  aside h2 {
-    margin-bottom: 20px; /* Distanza tra il titolo e i div */
-    font-size: 1.5em; /* Aumenta la dimensione del titolo */
-    text-align: center; /* Centra il titolo */
-    width: 100%; /* Fa in modo che il titolo occupi tutta la larghezza */
-  }
-
-  /* Ora i div all'interno di aside sono affiancati su una sola riga */
-  aside .article-corr {
-    display: flex; /* Attiva Flexbox */
-    justify-content: space-between; /* Distribuisce lo spazio tra i div */
-    gap: 20px; /* Spazio tra i div */
+    width: 100%;
   }
 
   aside div {
-    flex: 1 1 30%; /* Ogni div occupa almeno il 30% della larghezza */
-    max-width: 400px; /* Limita la larghezza massima dei div */
-  }
-
-  aside a {
-    font-size: 1.2em; /* Aumenta la dimensione del link */
-  }
-
-  aside p {
-    font-size: 1em; /* Imposta la dimensione del testo delle info */
+    display: inline-block;
+    width: 33%;
+    max-width: 400px;
   }
 }
