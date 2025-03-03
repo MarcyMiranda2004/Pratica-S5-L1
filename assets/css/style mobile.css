@@ -1,0 +1,150 @@
+/* Mobile */
+@media screen and (min-width: 576px) {
+  /* Header */
+  header {
+    font-weight: 500;
+    font-size: 1.2em;
+  }
+
+  header nav ul {
+    text-align: center;
+  }
+
+  header nav li {
+    display: inline-block;
+    margin: 5px 5px;
+  }
+
+  /* Elementi Del Main Article */
+  h1 {
+    font-size: 3.5em;
+    line-height: 1.2em;
+  }
+
+  h2 {
+    font-weight: bold;
+  }
+
+  p,
+  address,
+  ul,
+  ol,
+  dl,
+  blockquote,
+  h2,
+  a {
+    font-size: 1.35em;
+  }
+
+  main img {
+    width: 4.8em;
+    border: 4px solid #01a0c6;
+    outline: 4px solid #a12572;
+    padding: 3px;
+  }
+
+  /* Tabella */
+  caption {
+    font-size: 1.2em;
+  }
+
+  th {
+    font-size: 1.4em;
+  }
+
+  /* Section */
+  section h2 {
+    background-color: #a3a3a3;
+    font-size: 1.5em;
+    padding: 2px;
+  }
+
+  /* Aside */
+  aside h2 {
+    font-size: 2em;
+  }
+
+  /* Footer */
+  footer p {
+    font-size: 1.8em;
+    margin: 10px;
+    margin-bottom: 20px;
+  }
+
+  footer address {
+    font-size: 1.9em;
+    margin-top: 10px;
+  }
+
+  footer a {
+    font-size: 0.9em;
+  }
+}
+
+/* Medium */
+@media screen and (min-width: 768px) {
+  /* Header */
+  header {
+    font-weight: 500;
+    font-size: 1.2em;
+  }
+
+  header nav ul {
+    text-align: center;
+  }
+
+  header nav li {
+    display: inline-block;
+    margin: 5px 5px;
+    font-size: 0.7em;
+  }
+
+  /* Elementi Del Main Article */
+  h1 {
+    font-size: 4.25em;
+    line-height: 1.2em;
+  }
+
+  p,
+  address,
+  ul,
+  ol,
+  dl,
+  blockquote,
+  h2 {
+    font-size: 1.4em;
+  }
+
+  h2 {
+    font-weight: bold;
+  }
+
+  /* Tabella */
+  table {
+    margin: 5em auto;
+  }
+
+  caption {
+    font-size: 1.1em;
+  }
+
+  /* Article */
+  article a {
+    font-size: 1em;
+  }
+
+  /* Aside */
+  aside a {
+    font-size: 1.15em;
+  }
+
+  /* Footer */
+  footer address {
+    font-size: 1.7em;
+    margin-top: 10px;
+  }
+}
+
+/* Desktop */
+@media screen and (1200px) {
+}
